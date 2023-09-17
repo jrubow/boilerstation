@@ -1,0 +1,28 @@
+/* .top-bar {
+    position:fixed;
+    top:-100px;
+    left:25%;
+    width:50%;
+    background-color:black;
+    border-radius: 50%;
+    height:200px;
+    width:50%;
+} */
+
+.top-bar {
+    z-index: 6;
+    position:fixed;
+    top:0;
+    left:0;
+    width:50%;
+    background-color:black;
+    height:70px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-bar  h2{
+    padding-bottom:0px;
+}

@@ -1,0 +1,33 @@
+
+.quicklinks {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+.quickflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.quicklink {
+    width:150px;
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgb(207,185,145);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+    cursor:pointer;
+}
+
+.quicklink p {
+    text-align: center;
+    margin-top: 35%;
+}

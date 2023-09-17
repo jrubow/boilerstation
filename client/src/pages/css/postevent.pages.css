@@ -1,0 +1,14 @@
+.postEvent {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 3px;
+    border:2px solid gray;
+}

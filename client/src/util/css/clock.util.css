@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+
+
+.clockus {
+    
+    margin-top: -15px;
+    background-color: #CFB991;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.clocktime {
+    border-width: 20px;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    padding-top: 10px;
+    align-items: center;
+}
+
+h6 {
+    font-family: 'Mukta', sans-serif;
+    padding-top: 2px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 36pt;
+    margin-top: -20px;
+}
+
+h3 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20pt;
+}
+
+h2 {
+    font-family: 'Mukta', sans-serif;
+    font-size: 16pt;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+
+
+/* do not touch below */
+
+.react-clock {
+    display: block;
+    position: relative;
+  }
+  
+  .react-clock,
+  .react-clock *,
+  .react-clock *:before,
+  .react-clock *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .react-clock__face {
+    position: absolute;
+    background-color: #CFB991;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  .react-clock__hand {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+  }
+  
+  .react-clock__hand__body {
+    position: absolute;
+    background-color: black;
+    transform: translateX(-50%);
+  }
+  
+  .react-clock__mark {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+  }
+  
+  .react-clock__mark__body {
+    position: absolute;
+    background-color: black;
+    transform: translateX(-50%);
+  }
+  
+  .react-clock__mark__number {
+    position: absolute;
+    left: -40px;
+    width: 80px;
+    text-align: center;
+  }
+  
+  .react-clock__second-hand__body {
+    background-color: red;
+  }

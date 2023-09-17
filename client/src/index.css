@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@500&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+    
+}
+
+html {
+    
+}
+
+.light {
+    font-family: 'Arimo', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.background {
+    height:475px;
+    width:100%;
+    margin-top:85px;
+}
+
+/* .sideways::before,
+.sideways::after {
+    content:"";
+    position:absolute;
+    bottom:100px;
+    right:0px;
+    left:0px;
+    background-color: white;
+    z-index: 0;
+    transform:skewY(-3deg);
+
+} */
+
+/* section:hover {
+    background: linear-gradient( green , yellow);
+} */
+
+/* section {
+  background-color: black;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  transform: skew(0deg, -10deg) ;
+  overflow:hidden;
+} */
+
+.overflowHidden {
+    overflow: hidden;
+}
+
+.content {
+    position: absolute;
+    top:0px;
+}
+
+h2 {
+    color: black;
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 10pt;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 14px; 
+    color: black;
+}
+
+h1 {
+    font-family: 'Mukta Malar', sans-serif;
+    font-size: 35px; 
+    color: rgb(207,185,145);
+    font-weight: bolder;
+}
+
+.button {
+    width:150px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(207,185,145);
+    margin-top: 20px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1000px) {
+        .departureAbove {
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .departureMain {
+            width:50% !important;
+        }
+
+}
